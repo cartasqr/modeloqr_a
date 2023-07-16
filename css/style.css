@@ -1,0 +1,158 @@
+/* ------------ GENERALES ------------ */
+a:hover { 
+    text-decoration: none !important;
+}      
+
+body{
+    font-family: 'Roboto', sans-serif !important;
+    background-image: url(../img/bg.jpg);
+}
+
+/* ------------ NAVBAR ------------ */
+
+.bg_navbar{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 5px #FFA600 solid;    
+}
+
+.logo{
+    height: 60px;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.iconos, .redes{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+}
+
+.descripcion_icon{
+    font-size: 9px;
+}
+
+.iconos:hover{
+    scale: 1.1;
+}
+
+.redes{
+    display: flex;
+    justify-content: end;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    margin: 0;
+}
+
+
+
+/* ------------ CONTENIDO DE PORTADA ------------ */
+
+.contenido_portada{
+    margin-top: 100px;
+}
+
+.div_items_portada, .div_zocalo1, .div_zocalo2{
+    background-color: #FFA600;
+    display: flex;
+    align-items: center;
+    height: 120px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: fill;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none !important;
+    padding: 0px 20px;
+    box-shadow: 2px 2px 1px black;
+    border: 2px black solid;
+}
+
+.div_items_portada:hover, .div_zocalo1:hover, .div_zocalo2:hover{
+    scale: 1.025;
+    background-color: #131515;
+    color: #ffffff;
+}
+
+
+
+/* ------------ CONTENIDO DE PAGINAS INTERNAS ------------ */
+.titulo{
+    display: flex;
+    justify-content: center;
+    color: #FFA600;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.sub_banner{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+.subtitulo{
+    color: #FFA600;
+    font-size: 24px;
+    margin: 0;
+    font-weight: 400;
+}
+
+.icon_producto{
+    height: 30px;
+}
+
+.producto{
+    margin-top: 16px;
+    background-color: white;
+    padding: 10px 0px;
+}
+
+.items_producto{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    color: rgb(0, 0, 0);
+
+}
+
+.frases{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    color: green;
+}
+
+.titulo_navbar{
+    color: white;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.descripción{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    margin-right: 16px;
+}
+
+.detalles_navbar{
+    color: white;
+    font-size: 20px;
+    margin: 0;
+    font-weight: 400;
+}
